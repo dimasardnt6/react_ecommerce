@@ -95,6 +95,7 @@ ul.breadcrumb li:last-child a {
     height: 106px;
 }
 
+
 .slider .thumbnail .item:after {
     content: "";
     @apply transition duration-200 absolute inset-0 bg-black bg-opacity-0 border-2 border-black border-opacity-0 rounded-lg;
@@ -137,4 +138,4 @@ button[disabled] {
 
 section:not(.bg-gray-100) + section.sitemap > div {
     @apply border-t;
-}
+  }
